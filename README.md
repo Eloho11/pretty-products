@@ -1,4 +1,4 @@
----
+
 summary: 'Apply CSS Grid & Flexbox to a product listing page layout.'
 time: '1 hour'
 deliverables: '1 HTML file, 1 CSS file, images'
