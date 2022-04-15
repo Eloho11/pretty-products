@@ -9,18 +9,57 @@ html {
 .grid-container {
   display: flex;
 }
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
 img {
 padding: 1rem;
-width: 100px;
-height: 50px;
+/* width: 100px;
+height: 50px; */
 }
 
 div {
   border: solid;
-  border-radius: 3em;
+  border-radius: 6px;
+  border-color: #987ffa;
+  margin: 1.5em;
+  text-align: center;
 }
 
-p {
-  text-decoration: underline;
+
+.title {
+  font-family: "Oswald";
+  font-weight: bold;
+  font-size: 2rem;
+  font-style: normal;
+  color: #6f00e7
+}
+
+
+.description {
+  font-family: "Karma";
+  font-weight: normal;
+  font-style: normal;
+  color: #000;
+}
+
+.cart {
+  border: Solid;
+  border-radius: 3em;
+  color: #fff;
+  background-color: #6f00e7;
+  width: 250px;
+  margin: 1.5em;
+}
+
+.group{
+  border: none;
+  display: inline;
+  justify-content: flex-end;
+}
+
+.img {
+  margin-left: 350px;
 }
